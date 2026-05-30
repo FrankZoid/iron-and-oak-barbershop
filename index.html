@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron & Oak Barbershop | Classic Cuts & Grooming in Richmond, VA</title>
+    <meta name="description" content="Iron & Oak Barbershop is a neighborhood shop in Richmond, Virginia offering haircuts, beard trims, hot towel shaves, and kids' cuts. Built for everyday style.">
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS stylesheet (relative path) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FontAwesome for icons (using a secure, verified CDN link) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#hero" class="logo-link" id="nav-logo">
+                <img src="logo/iron-oak-logo.jpg" alt="Iron & Oak Barbershop Logo" class="header-logo">
+                <span class="header-logo-text">Iron & Oak</span>
+            </a>
+            
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" id="mobile-toggle-btn">
+                <span class="sr-only">Menu</span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <nav id="primary-navigation" class="primary-navigation">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#team" class="nav-link">Team</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#booking" class="nav-link">Booking</a></li>
+                    <li><a href="#hours" class="nav-link">Hours</a></li>
+                    <li><a href="#contact" class="nav-link">Location & Contact</a></li>
+                    <li><a href="#parking" class="nav-link">Parking</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-cta-wrapper">
+                <a href="https://square.site/book/iron-and-oak-barbershop-richmond" class="btn btn-sm btn-gold header-cta" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <span class="hero-tagline">Est. Richmond, VA</span>
+                    <h1 class="hero-headline">Classic Cuts, Clean Fades, and Straightforward Service</h1>
+                    <p class="hero-subheadline">Iron & Oak Barbershop is a neighborhood shop in Richmond, Virginia offering haircuts, beard trims, hot towel shaves, and kids' cuts.</p>
+                    <p class="hero-intro">Book an appointment or stop in when walk-in space is available. We keep the experience simple: skilled barbers, clear pricing, and a comfortable shop built for everyday style.</p>
+                    <div class="hero-actions">
+                        <a href="https://square.site/book/iron-and-oak-barbershop-richmond" class="btn btn-gold" target="_blank" rel="noopener noreferrer" id="hero-primary-cta">Book an Appointment</a>
+                        <a href="#services" class="btn btn-outline" id="hero-secondary-cta">View Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Services Section -->
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Grooming Services</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">From traditional barber cuts and skin fades to beard shaping, lineups, and hot towel shaves, Iron & Oak Barbershop offers practical grooming services with a clean finish.</p>
+                </div>
+
+                <div class="services-wrapper">
+                    <div class="services-grid" id="services-list-container">
+                        <!-- Service Card 1 -->
+                        <div class="service-card">
+                            <div class="service-meta">
+                                <h3 class="service-name">Classic Barber Cut</h3>
+                                <span class="service-price">$35</span>
+                            </div>
+                            <p class="service-description">Consultation, haircut, neckline cleanup, and style.</p>
+                        </div>
+                        
+                        <!-- Service Card 2 -->
+                        <div class="service-card">
+                            <div class="service-meta">
+                                <h3 class="service-name">Skin Fade</h3>
+                                <span class="service-price">$42</span>
+                            </div>
+                            <p class="service-description">Detailed fade with clipper and shear work, finished with a clean neckline.</p>
+                        </div>
+
+                        <!-- Service Card 3 -->
+                        <div class="service-card">
+                            <div class="service-meta">
+                                <h3 class="service-name">Kids' Cut</h3>
+                                <span class="service-price">$25</span>
+                            </div>
+                            <p class="service-description">Haircut for children 12 and under.</p>
+                        </div>
+
+                        <!-- Service Card 4 -->
+                        <div class="service-card">
+                            <div class="service-meta">
+                                <h3 class="service-name">Beard Trim</h3>
+                                <span class="service-price">$20</span>
+                            </div>
+                            <p class="service-description">Beard shaping, cleanup, and trim.</p>
+                        </div>
+
+                        <!-- Service Card 5 -->
+                        <div class="service-card">
+                            <div class="service-meta">
+                                <h3 class="service-name">Lineup</h3>
+                                <span class="service-price">$15</span>
+                            </div>
+                            <p class="service-description">Clean hairline, neckline, and edge detail.</p>
+                        </div>
+
+                        <!-- Service Card 6 -->
+                        <div class="service-card">
+                            <div class="service-meta">
+                                <h3 class="service-name">Hot Towel Shave</h3>
+                                <span class="service-price">$38</span>
+                            </div>
+                            <p class="service-description">Traditional hot towel shave with straight razor finish.</p>
+                        </div>
+
+                        <!-- Service Card 7 -->
+                        <div class="service-card">
+                            <div class="service-meta">
+                                <h3 class="service-name">Cut and Beard Combo</h3>
+                                <span class="service-price">$55</span>
+                            </div>
+                            <p class="service-description">Haircut with beard trim and shaping.</p>
+                        </div>
+
+                        <!-- Service Card 8 -->
+                        <div class="service-card">
+                            <div class="service-meta">
+                                <h3 class="service-name">Senior Cut</h3>
+                                <span class="service-price">$28</span>
+                            </div>
+                            <p class="service-description">Classic haircut for clients 65 and older.</p>
+                        </div>
+                    </div>
+
+                    <div class="services-footer">
+                        <p class="pricing-note"><i class="fa-solid fa-asterisk text-gold"></i> Pricing can vary based on barber, hair length, and service complexity. Ask your barber for a final quote before service begins.</p>
+                        <div class="pdf-download-container">
+                            <div class="pdf-card">
+                                <div class="pdf-icon-wrapper">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                </div>
+                                <div class="pdf-details">
+                                    <h4>View Our Complete Guide</h4>
+                                    <p>Open a printable copy of our full grooming list and pricing menu.</p>
+                                </div>
+                                <a href="docs/services.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-sm pdf-btn" id="view-services-pdf"><i class="fa-solid fa-eye"></i> View Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Team Section -->
+        <section id="team" class="team-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Meet Our Barbers</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Our barbers each bring a different focus, from tight fades and beard work to kids' cuts and classic scissor cuts, with a commitment to clean work, practical style, and a comfortable shop experience.</p>
+                </div>
+
+                <div class="team-wrapper">
+                    
+                    <div class="team-grid" id="team-members-container">
+                        <!-- Barber 1 -->
+                        <div class="team-card">
+                            <div class="barber-avatar">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="barber-name">Evan Brooks</h3>
+                                <span class="barber-title">Owner / Barber</span>
+                                <div class="barber-divider"></div>
+                                <p class="specialties-header">Specialties</p>
+                                <ul class="specialties-list">
+                                    <li><span class="tag">Classic cuts</span></li>
+                                    <li><span class="tag">Scissor work</span></li>
+                                    <li><span class="tag">Beard shaping</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Barber 2 -->
+                        <div class="team-card">
+                            <div class="barber-avatar">
+                                <i class="fa-solid fa-user-astronaut"></i>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="barber-name">Malik Carter</h3>
+                                <span class="barber-title">Barber</span>
+                                <div class="barber-divider"></div>
+                                <p class="specialties-header">Specialties</p>
+                                <ul class="specialties-list">
+                                    <li><span class="tag">Skin fades</span></li>
+                                    <li><span class="tag">Lineups</span></li>
+                                    <li><span class="tag">Modern cuts</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Barber 3 -->
+                        <div class="team-card">
+                            <div class="barber-avatar">
+                                <i class="fa-solid fa-user-ninja"></i>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="barber-name">Rosa Vega</h3>
+                                <span class="barber-title">Barber</span>
+                                <div class="barber-divider"></div>
+                                <p class="specialties-header">Specialties</p>
+                                <ul class="specialties-list">
+                                    <li><span class="tag">Kids' cuts</span></li>
+                                    <li><span class="tag">Short styles</span></li>
+                                    <li><span class="tag">Hot towel shaves</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Gallery Section -->
+        <section id="gallery" class="gallery-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">The Gallery</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">See the shop, the chairs, and a few examples of the kind of everyday barbering clients can expect at Iron & Oak.</p>
+                </div>
+
+                <div class="gallery-grid" id="gallery-container">
+
+                    <!-- Photo 2: Exterior -->
+                    <div class="gallery-item">
+                        <img src="images/iron-oak-exterior.jpg" alt="Shop Exterior">
+                        <div class="gallery-overlay">
+                            <p class="gallery-caption">Shop Exterior</p>
+                        </div>
+                    </div>
+
+                    <!-- Photo 3: Barber at Work -->
+                    <div class="gallery-item">
+                        <img src="images/iron-oak-barber-at-work.jpg" alt="Barber at Work">
+                        <div class="gallery-overlay">
+                            <p class="gallery-caption">Barber at Work</p>
+                        </div>
+                    </div>
+
+                    <!-- Photo 4: Beard Trim -->
+                    <div class="gallery-item">
+                        <img src="images/iron-oak-beard-trim.jpg" alt="Classic Beard Trim & Shaping">
+                        <div class="gallery-overlay">
+                            <p class="gallery-caption">Classic Beard Trim & Shaping</p>
+                        </div>
+                    </div>
+
+                    <!-- Photo 5: Finished Cut -->
+                    <div class="gallery-item">
+                        <img src="images/iron-oak-finished-cut.jpg" alt="Modern Clean Finished Cut">
+                        <div class="gallery-overlay">
+                            <p class="gallery-caption">Modern Clean Finished Cut</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. About Section -->
+        <section id="about" class="about-section section-padding dark-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <span class="about-tag">Since 2026</span>
+                        <h2 class="about-title">About Iron & Oak</h2>
+                        <div class="section-divider-left"></div>
+                        <p class="about-paragraph primary-about">Iron & Oak Barbershop was built for clients who want a reliable cut without the fuss. The shop combines old-school barbering standards with a relaxed neighborhood feel, making it easy to come in, get cleaned up, and get on with your day.</p>
+                        <p class="about-paragraph secondary-about">Iron & Oak Barbershop is a local Richmond barbershop focused on clean cuts, friendly service, and a comfortable experience. We serve clients looking for classic cuts, modern fades, beard trims, shaves, and kids' cuts in a straightforward neighborhood setting.</p>
+                        
+                        <div class="gift-card-banner">
+                            <div class="gift-icon">
+                                <i class="fa-solid fa-gift"></i>
+                            </div>
+                            <div class="gift-text">
+                                <strong>Gift Cards Available</strong>
+                                <p>Gift cards are available in the shop for haircuts, beard trims, shaves, and grooming services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image-wrapper">
+                        <img src="images/iron-oak-interior.jpg" alt="Iron & Oak Barbershop Shop Environment" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Booking Section -->
+        <section id="booking" class="booking-section section-padding">
+            <div class="container">
+                <div class="booking-card">
+                    <div class="booking-tag">Easy Online Booking</div>
+                    <h2 class="booking-title">Ready to Get Cleaned Up?</h2>
+                    <div class="section-divider"></div>
+                    <p class="booking-intro">Appointments are recommended, especially for evenings and Saturdays. Walk-ins are welcome when a barber is available, but wait times may vary.</p>
+                    
+                    <div class="booking-action-wrapper">
+                        <a href="https://square.site/book/iron-and-oak-barbershop-richmond" class="btn btn-gold btn-lg btn-block" target="_blank" rel="noopener noreferrer" id="booking-cta-btn"><i class="fa-solid fa-calendar-check"></i> Book an Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Hours Section -->
+        <section id="hours" class="hours-section section-padding dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title text-white">Shop Hours</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Call ahead or book online if you are trying to visit during busy afternoon or weekend hours.</p>
+                </div>
+
+                <div class="hours-wrapper">
+                    <table class="hours-table">
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="day-row" data-day="monday">
+                                <td class="day-name">Monday</td>
+                                <td class="day-time closed-text">Closed</td>
+                            </tr>
+                            <tr class="day-row" data-day="tuesday">
+                                <td class="day-name">Tuesday</td>
+                                <td class="day-time">10:00 AM - 7:00 PM</td>
+                            </tr>
+                            <tr class="day-row" data-day="wednesday">
+                                <td class="day-name">Wednesday</td>
+                                <td class="day-time">10:00 AM - 7:00 PM</td>
+                            </tr>
+                            <tr class="day-row" data-day="thursday">
+                                <td class="day-name">Thursday</td>
+                                <td class="day-time">10:00 AM - 7:00 PM</td>
+                            </tr>
+                            <tr class="day-row" data-day="friday">
+                                <td class="day-name">Friday</td>
+                                <td class="day-time">10:00 AM - 7:00 PM</td>
+                            </tr>
+                            <tr class="day-row" data-day="saturday">
+                                <td class="day-name">Saturday</td>
+                                <td class="day-time">9:00 AM - 5:00 PM</td>
+                            </tr>
+                            <tr class="day-row" data-day="sunday">
+                                <td class="day-name">Sunday</td>
+                                <td class="day-time closed-text">Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="hours-notes">
+                        <p class="holiday-note"><i class="fa-solid fa-calendar-minus text-gold"></i> Holiday hours may vary. Please call ahead before visiting on major holidays.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Location & Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Location & Contact</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="info-block">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Shop Address</h3>
+                                <p>2914 Grove Avenue</p>
+                                <p>Richmond, VA 23221</p>
+                                <a href="https://www.google.com/search?q=Iron+%26+Oak+Barbershop+Richmond+VA" target="_blank" rel="noopener noreferrer" class="link-gold inline-flex" id="location-map-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Get Directions</a>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Phone Number</h3>
+                                <p><a href="tel:+18045554821" class="contact-phone" id="phone-btn">(804) 555-4821</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Email Address</h3>
+                                <p><a href="mailto:hello@ironandoakbarber.com" class="contact-email" id="email-btn">hello@ironandoakbarber.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="social-block">
+                            <h3>Connect With Us</h3>
+                            <div class="social-links-wrapper">
+                                <a href="https://instagram.com/ironandoakbarber" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram" id="instagram-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/ironandoakbarber" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook" id="facebook-link">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <span class="social-handle text-gold">@ironandoakbarber</span>
+                        </div>
+                    </div>
+
+                    <div class="map-visual-container">
+                        <img src="images/iron-oak-exterior.jpg" alt="Iron & Oak Barbershop Front Window View" class="contact-map-image">
+                        <div class="location-badge">
+                            <i class="fa-solid fa-location-pin text-gold"></i>
+                            <div>
+                                <strong>Grove Avenue Neighborhood</strong>
+                                <p>Right in the heart of Richmond</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Parking Section -->
+        <section id="parking" class="parking-section section-padding dark-section">
+            <div class="container">
+                <div class="parking-card-container">
+                    <div class="parking-header">
+                        <div class="parking-icon-circle">
+                            <i class="fa-solid fa-square-p"></i>
+                        </div>
+                        <h2 class="parking-title">Parking Information</h2>
+                    </div>
+                    <div class="section-divider"></div>
+                    <p class="parking-description">Street parking is available along Grove Avenue and nearby side streets. Please allow a few extra minutes during evenings and weekends.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 10. Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <img src="logo/iron-oak-logo.jpg" alt="Iron & Oak Logo" class="footer-logo">
+                <h2 class="footer-title">Iron & Oak Barbershop</h2>
+                <p class="footer-tagline">Classic cuts, beard trims, and hot towel shaves in a neighborhood barbershop built for everyday style.</p>
+            </div>
+            
+            <div class="footer-middle">
+                <ul class="footer-nav">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#hours">Hours</a></li>
+                    <li><a href="#contact">Location</a></li>
+                    <li><a href="#parking">Parking</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Iron & Oak Barbershop. All rights reserved. <span class="footer-divider-dot">|</span> Crafted with care in Richmond, VA.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript script (relative path) -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
